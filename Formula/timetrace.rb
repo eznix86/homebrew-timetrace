@@ -20,6 +20,8 @@ class Timetrace < Formula
           sha256 "4898111935045be617c425192aa659a702d5988bcbcb7db4e7b2804cfc203d3e"
         end
       end
+
+      bottle :unneeded
     
       def install
         bin.install "ttrace"
