@@ -1,4 +1,4 @@
-class TimetraceAT010beta < Formula
+class TimetraceAT010Beta < Formula
   desc "In memory event or log, storage and stream platform"
   homepage "https://github.com/zurvan-lab/timetrace"
   license "MIT"
