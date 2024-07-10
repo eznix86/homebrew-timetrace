@@ -8,7 +8,7 @@ class Timetrace < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args, "./cmd/main.go"
+    system "go", "build", "-o", "ttrace", "./cmd/main.go"
     bin.install "ttrace"
   end
 
